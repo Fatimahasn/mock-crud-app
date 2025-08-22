@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mock-crud-app/static/css/main.1129ab7c.css",
+    "main.js": "/mock-crud-app/static/js/main.52922af3.js",
+    "index.html": "/mock-crud-app/index.html",
+    "main.1129ab7c.css.map": "/mock-crud-app/static/css/main.1129ab7c.css.map",
+    "main.52922af3.js.map": "/mock-crud-app/static/js/main.52922af3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1129ab7c.css",
+    "static/js/main.52922af3.js"
+  ]
+}

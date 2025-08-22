@@ -4,7 +4,7 @@ import Titlebar from './components/layout/titlebar/index.js';
 import PostDetail from './pages/postDetail.js';
 function App() { 
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename="/mock-crud-app">
     <Titlebar/>
       <Routes>
         <Route path="/" element= {<Home/>}/>

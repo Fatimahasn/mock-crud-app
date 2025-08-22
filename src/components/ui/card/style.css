@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  margin: 10px;
+  max-width: 100%;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  word-break: break-word;
+  overflow: hidden;
+  transition: all 0.2s ease; /* Smooth transition for layout changes */
+  position: relative;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.cardActions {
+  display: flex;
+  gap: 8px;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+}
+
+.iconBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+}

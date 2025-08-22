@@ -1,0 +1,28 @@
+.postsContainer {
+  max-height: 785px;
+  overflow-y: auto;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+/* Button for "Add New Comment" */
+.addPostBtn {
+  width: 10%;
+  background: #1976d2;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.addPostBtn:hover {
+  background: #155a9c;
+}
+

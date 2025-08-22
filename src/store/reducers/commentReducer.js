@@ -29,6 +29,7 @@ function Commentreducer(state = initialState, action) {
         },
         loadingSelectedPostComments: false,
       };
+      break;
 
     default:
       return state;

@@ -5,7 +5,7 @@ A React frontend application demonstrating **CRUD operations** (Create, Read, Up
 Since JSONPlaceholder provides mock APIs, all add, update, and delete actions appear to work but **data resets on page reload** (because changes are not persisted on the server).
 
 ---
-
+This app is deployed on this link: https://fatimahasn.github.io/mock-crud-app/
 ## 🚀 Features
 - View posts with pagination
 - Add new posts

@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/mock-crud-app/static/css/main.1129ab7c.css",
-    "main.js": "/mock-crud-app/static/js/main.6130b247.js",
+    "main.css": "/mock-crud-app/static/css/main.6926718d.css",
+    "main.js": "/mock-crud-app/static/js/main.e71aa5c2.js",
     "index.html": "/mock-crud-app/index.html",
-    "main.1129ab7c.css.map": "/mock-crud-app/static/css/main.1129ab7c.css.map",
-    "main.6130b247.js.map": "/mock-crud-app/static/js/main.6130b247.js.map"
+    "main.6926718d.css.map": "/mock-crud-app/static/css/main.6926718d.css.map",
+    "main.e71aa5c2.js.map": "/mock-crud-app/static/js/main.e71aa5c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.1129ab7c.css",
-    "static/js/main.6130b247.js"
+    "static/css/main.6926718d.css",
+    "static/js/main.e71aa5c2.js"
   ]
 }

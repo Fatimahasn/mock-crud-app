@@ -1,0 +1,72 @@
+.modal {
+    width: 600px;         /* Increase width as needed */
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.2);
+    padding: 2rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: auto;
+    z-index: 101;
+}
+/* Title styling */
+.lbl {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 12px;
+    text-align: left;
+    border-bottom: 2px solid #e0e0e0;
+    letter-spacing: 0.5px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Body styling */
+.body {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 24px;
+    text-align: left;
+    word-break: break-word;
+    line-height: 1.7;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+.closeIcon {
+    position: absolute;
+    top: 18px;
+    right: 18px;   /* Change from left to right */
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 20;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #800040;
+  color: white;
+  border: 1px solid #800040;
+  margin: 0 1rem;
+}
+
+.btn:hover {
+  background-color: #9c1458;
+  border-color: #9c1458;
+}
+
+.btn--alt {
+  background-color: transparent;
+  color: #800040;
+}
+
+.btn--alt:hover {
+  background-color: #f8dae9;
+}

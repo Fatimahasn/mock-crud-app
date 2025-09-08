@@ -1,0 +1,121 @@
+/* Right-side Add Comment Modal */
+.addCommentModal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 360px;
+  height: 100%;
+  background: #fff;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.15);
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  animation: slideIn 0.3s ease forwards;
+  text-align: center;
+}
+
+.addCommentHeader {
+  background-color: #f0f2f5;
+  height: 80px;
+  align-content: center;
+  padding: 10px;
+}
+
+.closeAddComment {
+  position: absolute;
+  top: 15px;
+  right: 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.addCommentHeading {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #1976d2;
+  background-color: #f0f2f5;
+  padding-bottom: 12px;
+}
+
+/* Slide animation */
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.addCommentBody {
+  padding: 20px;
+}
+
+.inputFieldContainerDiv {
+  height: 90px;
+}
+
+.inputLabel {
+  display: block;
+  margin: 6px 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+  text-align: left;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.inputField:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 3px rgba(0, 123, 255, 0.3);
+}
+
+.error {
+  color: red;
+  font-size: 0.85rem;
+  margin: 4px 0 4px 0;
+  height: 12px;
+  text-align: left;
+}
+
+.textAreaContainerDiv {
+  height: 80%;
+  padding-bottom: 15px;
+  min-width: 70%;
+}
+
+.commentInputBox {
+  flex: 1;
+  min-height: 90%;
+  min-width: 100%;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 14px;
+  resize: none;
+}
+
+.submitCommentBtn {
+  background: #1976d2;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.submitCommentBtn:hover {
+  background: #155a9c;
+}

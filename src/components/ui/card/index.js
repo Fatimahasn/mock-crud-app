@@ -1,4 +1,4 @@
-import "./style.css";
+import "./card.css";
 import { Link } from "react-router-dom";
 import { Edit, Trash } from "tabler-icons-react";
 function Card(props) {

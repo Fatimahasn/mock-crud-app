@@ -1,4 +1,4 @@
-import "./style.css";
+import "./titlebar.css";
 function Titlebar() {
   return (
     <header className="header">

@@ -57,8 +57,7 @@ const Home = (props) => {
           <button className="addPostBtn" onClick={() => setModalIsOpen(true)}>
             + Add New Post
           </button>
-          {value &&
-            value.map((user) => (
+          {value.map((user) => (
               <Card
                 key={user.id}
                 userDetails={user}
@@ -69,6 +68,7 @@ const Home = (props) => {
             ))}
         </div>
       </div>
+       <div className="paginationBar"></div>
       {modalIsOpen && (
         <AddPostModal
           onCancel={closeModalHandler}
